@@ -1,0 +1,247 @@
+@charset "utf-8"
+
+/*
+html5doctor.com Reset Style
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+;html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colors to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colors to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border color to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{  
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  letter-spacing: 1.5px;
+}  
+
+.header {
+  height: 75px;
+  background-color: #fff;
+  text-align: right;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  
+  }
+
+.header .inner{
+  position: relative;
+  width: 1170px;
+    padding:15px 0 ;
+  margin: 0 auto;
+ }
+.header .logo{
+  position: absolute;
+  font-size: 16px;
+  top: 10px;
+  left: 0;
+}
+.header.logo img {
+  position: relative;
+  top: 7px;
+  }
+  .logo img {
+    width :120px;
+  }
+ .btn a {
+  height: 44px;
+  padding: 0 40px;
+  background-color:#DA6B64;
+  color:#fff;
+  border-radius: 22px;
+  display: block;
+  line-height: 45px;
+  text-decoration: none;
+ }
+ .btn a:hover {
+  background-color: #da9494;
+}
+  .btn {
+  display: inline-block;
+}
+
+.key-visual {
+  height: 500px;
+  position: relative;
+  background: url(images/main.jpg) no-repeat center center / cover;
+}
+.key-visual_ttl{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+ text-align: center;
+ transform: translateY(-50%);
+}
+.key-visual_ttl h2 {
+  font-size: 28px;
+  line-height: 2em;
+}
+.key-visual_logo {
+  margin-bottom: 40px;
+}
+.key-visual_logo img {
+  width:  300px;
+}
+.key-visual_ttl p{
+  font-style: 20px;
+  line-height: 1em;
+}p
+.main {
+  background-color: #ccc;
+}
+.sec01 {
+background-color: #EBB94D;
+color: #fff;
+text-align: center; 
+padding:35px 0 90px;
+}
+
+.sec01 h3{
+ font-size: 20px;
+}
+.sec01 ul {
+  font-size: 21px;
+  font-weight: bold;
+}
+.sec01 li + li {
+  margin-top: 35px
+}
+code {
+  padding: 2px 4px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  
+}
+.sec01 .btn a {
+  background-repeat: 52px;
+  font-size: 28px;
+  height: 104px;
+  padding-right:0 300px;
+  line-height: 104px;
+  font-weight: bold;
+ 
+}
+.sec01 .btn {
+ margin: 45px 0 70px ;
+
+}
+.footer{
+  background-color: #ECECEC;
+  line-height: 16px;
+  font-size: 10px;
+  color: #333;
+  padding: 40px 0 25px 0;
+  text-align: center;
+}
+.footer p:first-of-type {
+  margin-bottom: 60px;
+
+}
+.footer a {
+  text-decoration: none;
+  color: #337ee7;
+}
+.footer a:hover{
+  color: #300ee1;
+  text-decoration: underline;
+}

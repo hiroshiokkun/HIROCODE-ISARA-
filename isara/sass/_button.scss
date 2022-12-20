@@ -1,0 +1,37 @@
+@use "_responsive.scss" as*;
+
+.button{
+  color: #fff;
+  font-size: 14px;
+  background: rgb(226, 81, 13);
+  padding: 1em 1.5em;
+ display: inline-block;
+ border-radius: 100px;
+ letter-spacing: 0.08em;
+
+ @include responsive(lg){
+   font-size: 13px;
+  }
+ &-md{
+  @extend .button;
+ font-size: 20px;
+}
+ &-lg{
+  @extend .button;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 1.5em 1.5em;
+  margin: 48px;
+  @include responsive(sm){
+    font-size: 18px;
+    margin: 20px;
+  }
+  br {
+    display: none;
+    @include responsive(sm){
+      display: block;
+  }
+}
+}
+}
